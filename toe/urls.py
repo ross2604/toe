@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
+from toe.views import game
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^$', game.Start.as_view(), name='start')
 ]
