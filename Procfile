@@ -1,1 +1,1 @@
-web: gunicorn toeheroku.wsgi
+web: gunicorn toe.wsgi
