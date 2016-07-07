@@ -88,5 +88,10 @@ ENV/
 # Rope project settings
 .ropeproject
 
+# Some random thing for heroku
+venv
+*.pyc
+staticfiles
+
 # Any otree stuff while its here
 otree
